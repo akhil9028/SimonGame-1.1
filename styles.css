@@ -1,0 +1,170 @@
+
+body{
+    background-image: linear-gradient(rgb(95, 95, 219),rgb(109, 109, 128));
+
+}
+
+h1{
+    color: rgb(241, 217, 185);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.btn0{
+      color: rgb(109, 109, 128);
+      background-color: rgb(109, 109, 128);
+      border: solid rgb(109, 109, 128);
+      position: absolute;
+      left: 0;
+      bottom: 0;
+}
+
+.btn1{
+    padding: 7%;
+    margin: 30px;
+    border: 10px solid black;
+    border-radius: 20%;
+
+}
+
+.firstbtn1{
+    display: block;
+}
+
+.secondbtn1{
+    display: block ;
+}
+
+
+.buttons{
+    text-align: center;
+    margin-top: 70px;
+    /* width: 10%; */
+}
+
+.g{
+    background-color: rgb(75, 238, 75);
+    color: rgb(75, 238, 75) ;
+}
+
+.r{
+    background-color: rgb(228, 77, 77);
+    color: rgb(228, 77, 77);
+}
+
+.b{
+    background-color: rgb(50, 229, 241);
+
+    color: rgb(50, 229, 241);
+}
+
+.y{
+    background-color: rgb(233, 156, 41);
+    color:rgb(233, 156, 41) ;
+}
+
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+
+
+
+.game-over{
+    background-color: red;
+    color: red;
+    opacity: 0.8;
+  }
+
+  #hideimg{
+    width: 850px;
+    /* height: 600px; */
+   
+    margin-left: 200px;
+  
+}
+ 
+
+.hidebtn{
+   
+    margin-left: 1250px;
+    background-color:rgb(109, 109, 133);
+    border: 1px solid rgb(109, 109, 128);
+    color: rgb(109, 109, 133);
+}
+
+@media (max-width:500px) {
+    
+   .btn1{
+    padding :15%;
+    margin: 10px;
+   }
+
+   #hideimg{
+    width:300px;
+    margin-left:50px;
+    border-radius: 2cqb;
+    
+   }
+ 
+   h1{
+
+    font-size: 1.5rem;
+    color: #DBEDF3;
+   }
+
+  .btn0{
+    margin-top: 30px;
+    background-color: rgb(61, 165, 224);
+    color: white;
+    border: solid rgb(21, 37, 46) ;
+    position: relative;
+    top: 10px;
+    left: 35%;
+    border-radius: 20%;
+    padding:3% 10%;
+    font-size: 1.5rem;
+    /* font-family: 'Press Start 2P', cursive; */
+
+  }
+
+  .btnre{
+    margin-top: 30px;
+    background-color: rgb(61, 165, 224);
+    color: white;
+    border: solid rgb(21, 37, 46) ;
+    position: relative;
+    top: 10px;
+    left: 35%;
+    border-radius: 20%;
+    padding:3% 10%;
+    font-size: 1.5rem;
+    /* font-family: 'Press Start 2P', cursive; */
+
+  }
+
+  .hidebtn{
+    /* position: static; */
+    margin-top: 100px;
+    margin-left: 390px;
+    padding: 10px;
+    background-color:rgb(109, 109, 133);
+    border: 1px solid rgb(109, 109, 128);
+    color: rgb(109, 109, 133);
+    
+}
+
+element.style {
+    margin-left: 350px;
+    margin-right: 100px;
+    margin-top: -600px;
+}
+
+}
+
+
+
+
